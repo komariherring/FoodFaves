@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RestaurantFormViewController.h
 //  FoodFaves
 //
 //  Created by Komari Herring on 8/10/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RestaurantFormViewController : UIViewController
 
 @end
-

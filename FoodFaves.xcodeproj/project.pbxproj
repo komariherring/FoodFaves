@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		EE58BBE91D5BB0C700B6BC76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BBE81D5BB0C700B6BC76 /* main.m */; };
 		EE58BBEC1D5BB0C700B6BC76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BBEB1D5BB0C700B6BC76 /* AppDelegate.m */; };
-		EE58BBEF1D5BB0C700B6BC76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BBEE1D5BB0C700B6BC76 /* ViewController.m */; };
 		EE58BBF21D5BB0C700B6BC76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE58BBF01D5BB0C700B6BC76 /* Main.storyboard */; };
 		EE58BBF51D5BB0C700B6BC76 /* FoodFaves.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE58BBF31D5BB0C700B6BC76 /* FoodFaves.xcdatamodeld */; };
 		EE58BBF71D5BB0C700B6BC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE58BBF61D5BB0C700B6BC76 /* Assets.xcassets */; };
 		EE58BBFA1D5BB0C700B6BC76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE58BBF81D5BB0C700B6BC76 /* LaunchScreen.storyboard */; };
+		EE58BC061D5BC1A800B6BC76 /* Restaurant+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC031D5BC1A800B6BC76 /* Restaurant+CoreDataProperties.m */; };
+		EE58BC071D5BC1A800B6BC76 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC051D5BC1A800B6BC76 /* Restaurant.m */; };
+		EE58BC0B1D5BC20B00B6BC76 /* RestaurantTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC0A1D5BC20B00B6BC76 /* RestaurantTableViewController.m */; };
+		EE58BC0E1D5BC24600B6BC76 /* RestaurantFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC0D1D5BC24600B6BC76 /* RestaurantFormViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +24,19 @@
 		EE58BBE81D5BB0C700B6BC76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE58BBEA1D5BB0C700B6BC76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE58BBEB1D5BB0C700B6BC76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE58BBED1D5BB0C700B6BC76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE58BBEE1D5BB0C700B6BC76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE58BBF11D5BB0C700B6BC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE58BBF41D5BB0C700B6BC76 /* FoodFaves.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodFaves.xcdatamodel; sourceTree = "<group>"; };
 		EE58BBF61D5BB0C700B6BC76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE58BBF91D5BB0C700B6BC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE58BBFB1D5BB0C700B6BC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE58BC021D5BC1A800B6BC76 /* Restaurant+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Restaurant+CoreDataProperties.h"; path = "../Restaurant+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EE58BC031D5BC1A800B6BC76 /* Restaurant+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Restaurant+CoreDataProperties.m"; path = "../Restaurant+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EE58BC041D5BC1A800B6BC76 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Restaurant.h; path = ../Restaurant.h; sourceTree = "<group>"; };
+		EE58BC051D5BC1A800B6BC76 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Restaurant.m; path = ../Restaurant.m; sourceTree = "<group>"; };
+		EE58BC091D5BC20B00B6BC76 /* RestaurantTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestaurantTableViewController.h; path = ../RestaurantTableViewController.h; sourceTree = "<group>"; };
+		EE58BC0A1D5BC20B00B6BC76 /* RestaurantTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestaurantTableViewController.m; path = ../RestaurantTableViewController.m; sourceTree = "<group>"; };
+		EE58BC0C1D5BC24600B6BC76 /* RestaurantFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestaurantFormViewController.h; path = ../RestaurantFormViewController.h; sourceTree = "<group>"; };
+		EE58BC0D1D5BC24600B6BC76 /* RestaurantFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestaurantFormViewController.m; path = ../RestaurantFormViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +69,15 @@
 		EE58BBE61D5BB0C700B6BC76 /* FoodFaves */ = {
 			isa = PBXGroup;
 			children = (
+				EE58BC081D5BC1BF00B6BC76 /* DO NOT TOUCH!!! */,
 				EE58BBEA1D5BB0C700B6BC76 /* AppDelegate.h */,
 				EE58BBEB1D5BB0C700B6BC76 /* AppDelegate.m */,
-				EE58BBED1D5BB0C700B6BC76 /* ViewController.h */,
-				EE58BBEE1D5BB0C700B6BC76 /* ViewController.m */,
+				EE58BC091D5BC20B00B6BC76 /* RestaurantTableViewController.h */,
+				EE58BC0A1D5BC20B00B6BC76 /* RestaurantTableViewController.m */,
+				EE58BC0C1D5BC24600B6BC76 /* RestaurantFormViewController.h */,
+				EE58BC0D1D5BC24600B6BC76 /* RestaurantFormViewController.m */,
+				EE58BC041D5BC1A800B6BC76 /* Restaurant.h */,
+				EE58BC051D5BC1A800B6BC76 /* Restaurant.m */,
 				EE58BBF01D5BB0C700B6BC76 /* Main.storyboard */,
 				EE58BBF61D5BB0C700B6BC76 /* Assets.xcassets */,
 				EE58BBF81D5BB0C700B6BC76 /* LaunchScreen.storyboard */,
@@ -80,6 +94,15 @@
 				EE58BBE81D5BB0C700B6BC76 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE58BC081D5BC1BF00B6BC76 /* DO NOT TOUCH!!! */ = {
+			isa = PBXGroup;
+			children = (
+				EE58BC021D5BC1A800B6BC76 /* Restaurant+CoreDataProperties.h */,
+				EE58BC031D5BC1A800B6BC76 /* Restaurant+CoreDataProperties.m */,
+			);
+			name = "DO NOT TOUCH!!!";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE58BBEF1D5BB0C700B6BC76 /* ViewController.m in Sources */,
+				EE58BC0E1D5BC24600B6BC76 /* RestaurantFormViewController.m in Sources */,
+				EE58BC0B1D5BC20B00B6BC76 /* RestaurantTableViewController.m in Sources */,
+				EE58BC061D5BC1A800B6BC76 /* Restaurant+CoreDataProperties.m in Sources */,
 				EE58BBEC1D5BB0C700B6BC76 /* AppDelegate.m in Sources */,
 				EE58BBE91D5BB0C700B6BC76 /* main.m in Sources */,
+				EE58BC071D5BC1A800B6BC76 /* Restaurant.m in Sources */,
 				EE58BBF51D5BB0C700B6BC76 /* FoodFaves.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
